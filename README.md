@@ -189,15 +189,6 @@ fun main() {
 
 ## Questão 19
 
-fun main() {
-   var distancia_km = 10
-   var tempo_horas = 2
-   var velocidade_ms = distancia_km / tempo_horas / 3.6
-   print(velocidade_ms)
-}
-
-## Questão 20
-
 import kotlin.math.pow
 
 fun main() {
@@ -207,7 +198,8 @@ fun main() {
     print(potencia)
 }
 
-## Questão 21
+
+## Questão 20
 
 import kotlin.math.pow
 
@@ -219,5 +211,166 @@ fun main() {
   print(formula)
 }
 
+## Questão 21
+
+
+import kotlin.math.pow
+
+fun main() {
+    val pes = 10
+    val metros = pes * 0.3048
+    print(metros)
+} 
+
 ## Questão 22
+
+import kotlin.math.pow
+
+fun main() {
+    val base = 16.0
+    val indice = 2.0
+    var raiz = base.pow((1.0/indice))
+    print(raiz)
+}
+
+## Questão 23
+
+import kotlin.math.pow
+
+fun main() {
+   val numero = 5
+   var antecessor = numero - 1
+   var sucessor = numero + 1
+   print("o numero é " + numero + ", Seu sucessor é: " + sucessor + ", Seu antecessor é: " + antecessor)
+}
+
+
+## Questões 24
+
+import kotlin.math.pow
+
+fun main() {
+ val num1 = 15
+ val num2 = 3
+ var resultado_divisao = num1 / num2
+ var resultado_quadrado = resultado_divisao * resultado_divisao
+ print(resultado_quadrado)
+}
+
+
+## Questão 25
+
+import kotlin.math.pow
+
+fun main() {
+	 val num1 = 5
+     val num2 = 10
+    
+    if(num1 > num2) {
+        print(num1 - num2)
+    
+    }else{
+        print(num2 - num1)
+    }
+}
+
+## Questão 26
+
+import kotlin.math.pow
+
+fun main() {
+	 val num1 = 5
+    
+    
+    if(num1 > 0) {
+        print("esse numero é positivo")
+    
+    }else if (num1 < 0){
+        print("esse numero e negativo")
+    }else {
+		print("esse numero é neutro = (0)")
+    }
+}
+
+
+## Questão 27
+
+import kotlin.math.pow
+
+fun main() {
+	val nota1 = 10
+    val nota2 = 5
+    val nota3 = 7 
+    val nota4 = 6
+    var media = (nota1 + nota2 + nota3 + nota4) / 4
+    if(media >= 5){
+        print("Você passou!!!, sua media é: " + media)
+    }else{
+        print("Você nao passou, sua media é: " + media)
+    }
+}
+
+## Questão 28
+
+import kotlin.math.pow
+
+fun main() {
+	val nota1 = 3
+    val nota2 = 5
+    val nota3 = 7 
+    val nota4 = 6
+    var media = (nota1 + nota2 + nota3 + nota4) / 4
+    if(media > 7){
+        print("Você passou!!!, sua media é: " + media)
+    }else if (media >= 5){
+        print( "sua media é: " + media + " - Exame")
+    }else{
+        print("Sua media é: " + media + "  - reprovado")
+    }
+}
+
+## Questão 29
+
+import kotlin.math.pow
+
+fun main() {
+	val valor = 1
+    if (valor <= 3) {
+        print(valor)
+    }else{
+        print("nao segue os parametros")
+    }
+    
+    
+}
+
+
+## Questão 30
+
+fun main() {
+    val num1 = 10
+    val num2 = 20
+    val num3 = 3
+
+    var menor_valor = num1
+    var maior_valor = num1
+
+    if (num2 > maior_valor) {
+        maior_valor = num2
+    }
+    if (num2 < menor_valor) {
+        menor_valor = num2
+    }
+
+    if (num3 > maior_valor) {
+        maior_valor = num3
+    }
+    if (num3 < menor_valor) {
+        menor_valor = num3
+    }
+
+    print("Maior valor é:" + maior_valor +", e menor valor é:" + menor_valor)
+}
+
+
 
