@@ -2,6 +2,8 @@
 
 ## Questão 1 
 
+```Kotlin
+
 fun main() {
     
     var entrada_celsius = 30
@@ -19,7 +21,12 @@ fun main() {
     print(C)
 }
 
+```
+
 ## Questão 3
+
+```Kotlin
+
 
 fun main() {
     val PI = 3.14
@@ -29,7 +36,11 @@ fun main() {
     print(volume)
 }
 
+```
+
 ## Questão 4
+
+```Kotlin
 
 fun main() {
   val distancia = 360
@@ -52,7 +63,11 @@ fun main() {
     print(valor)
 }
 
+```
+
 ## Questão 6
+
+```Kotlin
 
 fun main() {
    var A = 10
@@ -67,7 +82,11 @@ fun main() {
    println("B = $B")
 }
 
+```
+
 ## Questão 7
+
+```Kotlin
 
 fun main() {
   var comprimento = 5
@@ -78,7 +97,11 @@ fun main() {
   print(volume)
 }
 
+```
+
 ## Questão 8
+
+```Kotlin
 
 fun main() {
  var num = -5
@@ -86,7 +109,11 @@ fun main() {
  print(quadrado)
 }
 
+```
+
 ## Questão 9
+
+```Kotlin
 
 fun main() {
  var num1 = 5
@@ -95,7 +122,11 @@ fun main() {
  print(diferenca)
 }
 
+```
+
 ## Questão 10
+
+```Kotlin
 
 fun main(){
     var valor_em_dolar = 10
@@ -104,7 +135,11 @@ fun main(){
     print(valor_em_real)
 }
 
+```
+
 ## Questão 11
+
+```Kotlin
 
 fun main(){
     var valor_em_real = 2000
@@ -113,7 +148,11 @@ fun main(){
     print(valor_em_dolar)
 }
 
+```
+
 ## Questão 12
+
+```Kotlin
 
 fun main(){
     var num1 = 5
@@ -124,7 +163,11 @@ fun main(){
     print(soma)
 }
 
+```
+
 ## Questão 13
+
+```Kotlin
 
 fun main(){
    var num1 = 5
@@ -135,7 +178,11 @@ fun main(){
    print(quadrado)
 }
 
+```
+
 ## Questão 14
+
+```Kotlin
 
 fun main(){
    var num1 = 5
@@ -147,7 +194,11 @@ fun main(){
    print("Produto:" + produto + ", Soma:" + soma)
 }
 
+```
+
 ## Questão 15
+
+```Kotlin
 
 fun main() {
  var salario = 1500
@@ -157,7 +208,11 @@ fun main() {
  print(novo_salario)
 }
 
+```
+
 ## Questão 16
+
+```Kotlin
 
 fun main() {
 	var raio = 5
@@ -165,7 +220,11 @@ fun main() {
     print(area)
 }
 
+```
+
 ## Questão 17
+
+```Kotlin
 
 fun main() {
     var num1 = 10
@@ -178,7 +237,11 @@ fun main() {
     print("Adição" + adicao + ", Subtração:" + subtracao + ", Multiplicação:" + multiplicacao + ", Divisão: " + divisao)
 }
 
+```
+
 ## Questão 18
+
+```Kotlin
 
 fun main() {
    var distancia_km = 10
@@ -187,7 +250,11 @@ fun main() {
    print(velocidade_ms)
 }
 
+```
+
 ## Questão 19
+
+```Kotlin
 
 import kotlin.math.pow
 
@@ -198,8 +265,11 @@ fun main() {
     print(potencia)
 }
 
+```
 
 ## Questão 20
+
+```Kotlin
 
 import kotlin.math.pow
 
@@ -211,8 +281,11 @@ fun main() {
   print(formula)
 }
 
+```
+
 ## Questão 21
 
+```Kotlin
 
 import kotlin.math.pow
 
@@ -222,7 +295,11 @@ fun main() {
     print(metros)
 } 
 
+```
+
 ## Questão 22
+
+```Kotlin
 
 import kotlin.math.pow
 
@@ -233,7 +310,11 @@ fun main() {
     print(raiz)
 }
 
+```
+
 ## Questão 23
+
+```Kotlin
 
 import kotlin.math.pow
 
@@ -244,8 +325,11 @@ fun main() {
    print("o numero é " + numero + ", Seu sucessor é: " + sucessor + ", Seu antecessor é: " + antecessor)
 }
 
+```
 
 ## Questões 24
+
+```Kotlin
 
 import kotlin.math.pow
 
@@ -257,8 +341,11 @@ fun main() {
  print(resultado_quadrado)
 }
 
+```
 
 ## Questão 25
+
+```Kotlin
 
 import kotlin.math.pow
 
@@ -274,7 +361,11 @@ fun main() {
     }
 }
 
+```
+
 ## Questão 26
+
+```Kotlin
 
 import kotlin.math.pow
 
@@ -292,8 +383,11 @@ fun main() {
     }
 }
 
+```
 
 ## Questão 27
+
+```Kotlin
 
 import kotlin.math.pow
 
@@ -310,7 +404,11 @@ fun main() {
     }
 }
 
+```
+
 ## Questão 28
+
+```Kotlin
 
 import kotlin.math.pow
 
@@ -329,7 +427,11 @@ fun main() {
     }
 }
 
+```
+
 ## Questão 29
+
+```Kotlin
 
 import kotlin.math.pow
 
@@ -344,8 +446,11 @@ fun main() {
     
 }
 
+```
 
 ## Questão 30
+
+```Kotlin
 
 fun main() {
     val num1 = 10
@@ -372,5 +477,5 @@ fun main() {
     print("Maior valor é:" + maior_valor +", e menor valor é:" + menor_valor)
 }
 
-
+```
 
